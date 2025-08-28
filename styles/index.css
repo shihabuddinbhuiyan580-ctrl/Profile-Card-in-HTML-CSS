@@ -60,4 +60,46 @@ body {
 }
 .media-buttons .link{
     text-decoration: none;
+    margin-top: 20px;
+}
+.buttons {
+  display: flex;
+  gap: 15px;  /* space between buttons */
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: navy;   /* navy background */
+  color: white;             /* white text */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #000080cc; /* slightly lighter navy on hover */
+}
+.post-actions {
+  display: flex;
+  justify-content: space-around;  /* evenly spaced */
+  margin-top: 20px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #444;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.action:hover {
+  color: navy; /* highlight on hover */
 }
